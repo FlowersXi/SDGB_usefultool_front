@@ -859,6 +859,15 @@ input[type=text].pager {
 .setting img {
 	width: 34px;
 }
+.network {
+	position: absolute;
+	right: 7px;
+	top: 5px;
+	z-index: 99;
+}
+.network img {
+	width: 34px;
+}
 .line_top {
 	margin: 0 0 4px 0;
 }

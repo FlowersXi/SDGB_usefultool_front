@@ -84,6 +84,17 @@ const routes = [
                 component: () => import('../components/player/ticket.vue'),
             },
         ],
+    },
+    {
+        path: '/tools',
+        component: () => import('../layouts/default/Default.vue'),
+        children: [
+            {
+                path: 'onlineCheck',
+                name: 'onlineCheck',
+                component: () => import('../components/tools/onlineCheck.vue'),
+            }
+        ],
     }
 ]
 
